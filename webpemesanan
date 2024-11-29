@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Up Innovation</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background
+</style>
+<body>
+    <header>
+        <h1>Start Up Innovation</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#order-form">Pesan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Jasa Pembuatan Aplikasi Mobile</h2>
+            <p>Kami membantu Anda mewujudkan aplikasi mobile impian Anda!</p>
+            <a href="#order-form" class="btn">Pesan Sekarang</a>
+        </section>
+
+        <section id="services">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li>Pembuatan Aplikasi Android</li>
+                <li>Pembuatan Aplikasi iOS</li>
+                <li>Pembuatan Aplikasi Web</li>
+                <li>Desain UI/UX</li>
+            </ul>
+        </section>
+
+        <section id="order-form">
+            <h2>Form Pemesanan</h2>
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="service">Layanan yang Dipilih:</label>
+                <select id="service" required>
+                    <option value="">Pilih Layanan</option>
+                    <option value="android">Pembuatan Aplikasi Android</option>
+                    <option value="ios">Pembuatan Aplikasi iOS</option>
+                    <option value="web">Pembuatan Aplikasi Web</option>
+                    <option value="design">Desain UI/UX</option>
+                </select>
+
+                <button type="submit">Kirim Pesanan</button>
+            </form>
+        </section>
+    </main>
+    <footer id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@startupinnovation.com</p>
+        <p>Telepon: +62 123 4567 890</p>
+    </footer>
+</body>
+</html>
